@@ -1,16 +1,26 @@
 {
-  "name": "homework_06_09",
+  "name": "homework_11_09",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "timestamp.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node timestamp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolynkoPolina/Homework_06_09.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/PolynkoPolina/Homework_06_09/issues"
+  },
+  "homepage": "https://github.com/PolynkoPolina/Homework_06_09#readme",
   "dependencies": {
+    "express": "^5.2.1",
     "moment": "^2.30.1"
   }
 }
